@@ -1,3 +1,6 @@
 [submodule "frontend-mentor__qr-code"]
 	path = frontend-mentor__qr-code
 	url = https://github.com/lauticometti/frontend-mentor__qr-code
+[submodule "product-preview-card-component"]
+	path = product-preview-card-component
+	url = https://github.com/lauticometti/product-preview-card-component
