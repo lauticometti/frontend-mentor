@@ -1,33 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | NFT preview card component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Equilibrium #3429
-
-  Our Equilibrium collection promotes balance and calm.
-
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <div class="card__img"></div>
+        <h1 class="card__title">Equilibrium #3429</h1>
+        <p class="card__description">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+        <div class="card__features">
+          <div class="card__price">
+            <img src="./images/icon-ethereum.svg" alt="ethereum icon" class="card__price-icon">
+            <span>0.041 ETH</span>
+          </div>
+          <div class="card__publication-date">
+            <img src="./images/icon-clock.svg" alt="clock icon">
+            <span>3 days left</span>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="card__creator">
+          <img src="./images/image-avatar.png" alt="creator avatar" class="card__creator-avatar">
+          <address class="card__creator-name">
+            Creation of <span class="card__creator-name--span">Jules Wyvern</span>
+          </address>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
